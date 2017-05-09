@@ -1,11 +1,12 @@
-c++刷题笔记
+# c++刷题笔记
 
+****
 ## 1. [剑指Offer](Sword-Offer/README.md) 
 
 题目全部在[牛客网][url1]测试通过
 
-## 2. LettCode
-题目在[lettcode][url2]官网测试通过
+## 2. [LettCode][url2]
+题目在**lettcode**官网测试通过
 
 ## 3. [编程之法：面试和算法心得][url3]
 
