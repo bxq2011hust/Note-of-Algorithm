@@ -2,20 +2,20 @@
 <!-- TOC -->
 
 - [面试题2 实现Singleton模式](#面试题2-实现singleton模式)
-    - [饿汉模式](#饿汉模式)
-    - [懒汉模式](#懒汉模式)
-    - [懒汉模式改进](#懒汉模式改进)
-    - [静态局部变量](#静态局部变量)
+    - [1. 饿汉模式](#1-饿汉模式)
+    - [2. 懒汉模式](#2-懒汉模式)
+    - [3. 懒汉模式改进](#3-懒汉模式改进)
+    - [4. 静态局部变量](#4-静态局部变量)
 - [参考链接](#参考链接)
 
 <!-- /TOC -->
 **单例模式**：保证单例类只能有一个实例
 
-### 饿汉模式
+### 1. 饿汉模式
 
 **特点**：程序运行时立刻初始化
 
-**缺点**：单例类的构造函数里调用另一个单例类的方法，需要考虑初始化顺序，详情见[参考链接](#参考链接)
+**缺点**：单例类的构造函数里调用另一个单例类的方法，需要考虑初始化顺序，详情见末尾**参考链接**
 ```cpp
 class Singleton
 {
@@ -36,7 +36,7 @@ class Singleton
 Singleton Singleton::instance;
 ```
 
-### 懒汉模式
+### 2. 懒汉模式
 
 **特点**：单例实例在第一次被使用时初始化
 
@@ -59,7 +59,7 @@ class Singleton
     ~Singleton(){};
 
     static Singleton *instance;
-    class CGarbage //它的唯一工作就是在析构函数中删除CSingleton的实例
+    class CGarbage //在析构函数中删除Singleton的实例
     {
       public:
         ~CGarbage()
@@ -72,14 +72,14 @@ class Singleton
 //            std::cout << "delete Singleton instanc" << std::endl;
         }
     };
-    static CGarbage garbo; //定义一个静态成员，程序结束时，系统自动调用它的析构函数
+    static CGarbage garbo; //静态成员，程序结束时，自动调用它的析构函数
 };
 Singleton::CGarbage Singleton::garbage;
 Singleton *Singleton::instance = NULL;
 
 ```
 
-### 懒汉模式改进
+### 3. 懒汉模式改进
 
 **思路**：加锁，前后两次判断实力是否已经存在，实例创建前加锁，之后再次调用`getInstance()`不会影响性能。
 ```cpp
@@ -110,7 +110,7 @@ class Singleton
     ~Singleton(){};
 
     static Singleton *instance;
-    class CGarbage //它的唯一工作就是在析构函数中删除CSingleton的实例
+    class CGarbage 
     {
       public:
         ~CGarbage()
@@ -120,17 +120,16 @@ class Singleton
                 delete Singleton::instance;
                 Singleton::instance = NULL;
             }
-//            std::cout << "delete Singleton instanc" << std::endl;
         }
     };
-    static CGarbage garbo; //定义一个静态成员，程序结束时，系统自动调用它的析构函数
+    static CGarbage garbo; 
 };
 Singleton::CGarbage Singleton::garbage;
 Singleton *Singleton::instance = NULL;
 
 ```
 
-### 静态局部变量
+### 4. 静态局部变量
 
 **思路**：私有的辅助类静态成员，程序运行时创建
 ```cpp
