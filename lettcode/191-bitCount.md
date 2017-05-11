@@ -1,7 +1,4 @@
-/*
-https://leetcode.com/problems/number-of-1-bits/#/description
-
-*/
+# 191 [计算比特位为1的个数](https://leetcode.com/problems/number-of-1-bits/#/description)
 
 ```cpp
 class Solution {
