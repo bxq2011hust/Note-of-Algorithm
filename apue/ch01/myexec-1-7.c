@@ -6,7 +6,7 @@
 #include <unistd.h>
 #include <sys/wait.h>
 
-#define	MAXLINE	4096			/* max line length */
+#define MAXLINE 4096 /* max line length */
 int main()
 {
     char buf[MAXLINE];
@@ -15,26 +15,26 @@ int main()
 
     printf("%% "); //print prompt%
 
-    while(fgets(buf,MAXLINE,stdin)!=NULL)
+    while (fgets(buf, MAXLINE, stdin) != NULL)
     {
-        if(buf[strlen(buf)-1]=='\n')
-            buf[strlen(buf)-1] = 0; //replace newline with NULL
-        if(pid=fork()<0)
+        if (buf[strlen(buf) - 1] == '\n')
+            buf[strlen(buf) - 1] = 0; //replace newline with NULL
+        if ((pid = fork()) < 0)
         {
             printf("fork error");
         }
-        else if (pid==0)
+        else if (pid == 0)
         {
-            execlp(buf,buf,(char*)0);
-            printf("couldn't execute: %s",buf);
+            execlp(buf, buf, (char *)0);
+            printf("couldn't execute: %s", buf);
             exit(127);
         }
 
         // parent
-        if((pid=waitpid(pid,&status,0))<0)
+        if ((pid = waitpid(pid, &status, 0)) < 0)
             printf("waitpid error");
         printf("%% ");
     }
-    
+
     return 0;
 }
