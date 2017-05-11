@@ -1,5 +1,5 @@
 
-# [编程之法：面试和算法心得](https://www.gitbook.com/book/wizardforcel/the-art-of-programming-by-july/details)
+# [编程之法：面试和算法心得][url1]
 
 
 ***
@@ -18,4 +18,4 @@
 
 
 ***
-
+[url1]:https://www.gitbook.com/book/wizardforcel/the-art-of-programming-by-july/details
