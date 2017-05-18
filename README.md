@@ -22,7 +22,26 @@
 
 编译器： g++ 
 
+## 5. C++优秀开源项目学习计划
+参考[这里][url5]
+
+- [ ] [Tinyhttpd][5.1]
+- [ ] [Webbench][5.2]
+- [ ] [cJSON][5.3]
+- [ ] [Libev][5.4]
+- [ ] [Lua][5.5]
+- [ ] [Memcached][5.6]
+- [ ] [SQLite][5.7]
 ***
 [url1]:https://www.nowcoder.com/ta/coding-interviews?page=1
 [url2]:https://leetcode.com/
 [url3]:https://www.gitbook.com/book/wizardforcel/the-art-of-programming-by-july/details
+[url5]:https://zhuanlan.zhihu.com/p/25443704 "c++开源库/框架"
+
+[5.1]:https://sourceforge.net/projects/tinyhttpd/ "Tiny HTTPd"
+[5.2]:http://home.tiscali.cz/~cz210552/webbench.html "Webbench"
+[5.3]:http://sourceforge.net/projects/cjson/ "cJSON"
+[5.4]:http://software.schmorp.de/pkg/libev.html "Libev"
+[5.5]:http://www.lua.org/ "Lua"
+[5.6]:http://memcached.org/ "Memcached"
+[5.7]:http://www.sqlite.org/ "SQLite"
