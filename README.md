@@ -32,6 +32,10 @@
 - [ ] [Lua][5.5]
 - [ ] [Memcached][5.6]
 - [ ] [SQLite][5.7]
+
+## 6. [Newcoder刷题笔记](newcoder/README.md)
+牛客网编程题笔记
+
 ***
 [url1]:https://www.nowcoder.com/ta/coding-interviews?page=1
 [url2]:https://leetcode.com/
