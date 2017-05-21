@@ -21,6 +21,11 @@
 ### 面试题15 [链表中倒数第k个结点](question-15.md)
 ### 面试题16 [反转单向链表](question-16.md)
 ### 面试题17 [合并两个排序的链表](question-17.md)
+### 面试题18 [树的子结构](question-18.md)
+### 面试题19 [二叉树的镜像](question-19.md)
+### 面试题20 [顺时针打印矩阵](question-20.md)
+### 面试题21 [包含min函数的栈](question-21.md)
+
 *****
 [url1]:https://www.nowcoder.com/ta/coding-interviews
 [url2]:https://github.com/yunshouhu/InterviewQuestions
