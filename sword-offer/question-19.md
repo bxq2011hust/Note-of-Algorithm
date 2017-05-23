@@ -3,13 +3,13 @@
 <!-- TOC -->
 
 - [面试题19 二叉树的镜像](#面试题19-二叉树的镜像)
-- [[题目1][url1.1]](#题目1url11)
+- [[题目1][url]](#题目1url)
     - [思路](#思路)
     - [实现](#实现)
 
 <!-- /TOC -->
 
-## [题目1][url1.1]
+## [题目1][url]
 操作给定的二叉树，将其变换为源二叉树的镜像。 
 
 ### 思路
@@ -83,4 +83,4 @@ class Solution
 };
 ```
 
-[url1.1]:https://www.nowcoder.com/practice/564f4c26aa584921bc75623e48ca3011?tpId=13&tqId=11171&rp=1&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking
+[url]:https://www.nowcoder.com/practice/564f4c26aa584921bc75623e48ca3011?tpId=13&tqId=11171&rp=1&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking
