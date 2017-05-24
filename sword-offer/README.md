@@ -43,6 +43,10 @@
 
 ****
 ## 5. 优化时间和空间效率
+### 面试题29 [数组中出现次数超过一半的数字](question-29.md)
+### 面试题30 [最小的K个数](question-30.md)
+### 面试题31 [连续子数组的最大和](question-31.md)
+
 *****
 [url1]:https://www.nowcoder.com/ta/coding-interviews
 [url2]:https://github.com/yunshouhu/InterviewQuestions
