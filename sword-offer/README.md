@@ -46,6 +46,15 @@
 ### 面试题29 [数组中出现次数超过一半的数字](question-29.md)
 ### 面试题30 [最小的K个数](question-30.md)
 ### 面试题31 [连续子数组的最大和](question-31.md)
+### 面试题32 [从1到n整数中1出现的次数](question-32.md)
+### 面试题33 [把数组排成最小的数](question-33.md)
+### 面试题34 [丑数](question-34.md)
+### 面试题35 [第一个只出现一次的字符](question-35.md)
+### 面试题36 [数组中的逆序对](question-36.md)
+### 面试题37 [两个链表的第一个公共结点](question-37.md)
+
+****
+## 6. 面试中的各项能力
 
 *****
 [url1]:https://www.nowcoder.com/ta/coding-interviews
