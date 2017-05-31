@@ -55,6 +55,13 @@
 
 ****
 ## 6. 面试中的各项能力
+### 面试题38 [数字在排序数组中出现的次数](question-38.md)
+### 面试题39 [二叉树的深度 & 平衡二叉树](question-39.md)
+### 面试题40 [数组中只出现一次的数字](question-40.md)
+### 面试题41 [和为S的两个数字 & 和为S的连续正数序列](question-41.md)
+### 面试题42 [翻转单词顺序列 & 左旋转字符串](question-42.md)
+### 面试题43 [n个骰子的点数](question-43.md)
+### 面试题44 [扑克牌顺子](question-44.md)
 
 *****
 [url1]:https://www.nowcoder.com/ta/coding-interviews
