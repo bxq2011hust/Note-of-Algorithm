@@ -62,6 +62,13 @@
 ### 面试题42 [翻转单词顺序列 & 左旋转字符串](question-42.md)
 ### 面试题43 [n个骰子的点数](question-43.md)
 ### 面试题44 [扑克牌顺子](question-44.md)
+### 面试题45 [圆圈中最后剩下的数字](question-45.md)
+### 面试题46 [求1+2+3+...+n](question-46.md)
+### 面试题47 [不用加减乘除做加法](question-47.md)
+### 面试题48 [不能被继承的类](question-48.md)
+
+****
+## 7. 两个面试案例
 
 *****
 [url1]:https://www.nowcoder.com/ta/coding-interviews
