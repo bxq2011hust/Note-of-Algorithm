@@ -3,7 +3,7 @@
 [牛客网--剑指Offer][url1]
 
 阅读《剑指offer》的笔记，所有题目均来自该书，并属于该书作者。
-书中例题[源代码][url2]
+书中例题[源代码][url2]，
 
 ## 2. 面试需要的基础知识
 ### 面试题01 [赋值运算符](question-1.md)
@@ -69,7 +69,15 @@
 
 ****
 ## 7. 两个面试案例
+### 面试题49 [把字符串转换成整数](question-49.md)
+### 面试题50 [树中两个结点的最低公共祖先](question-50.md)
+
+****
+## 8. 英文版新增面试题
+### 面试题51 [数组中重复的数字](question-51.md)
+### 面试题52 [构建乘积数组](question-52.md)
 
 *****
 [url1]:https://www.nowcoder.com/ta/coding-interviews
-[url2]:https://github.com/yunshouhu/InterviewQuestions
+[url2]:https://github.com/zhedahht/CodingInterviewChinese2
+[url3]:https://github.com/yunshouhu/InterviewQuestions
