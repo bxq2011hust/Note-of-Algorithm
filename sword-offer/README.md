@@ -76,6 +76,17 @@
 ## 8. 英文版新增面试题
 ### 面试题51 [数组中重复的数字](question-51.md)
 ### 面试题52 [构建乘积数组](question-52.md)
+### 面试题53 [正则表达式匹配](question-53.md)
+### 面试题54 [表示数值的字符串](question-54.md)
+### 面试题55 [字符流中第一个不重复的字](question-55.md)
+### 面试题56 [链表中环的入口结点](question-56.md)
+### 面试题57 [删除链表中重复的结点](question-57.md)
+### 面试题58 [二叉树的下一个结点](question-58.md)
+### 面试题59 [对称的二叉树](question-59.md)
+### 面试题60 [把二叉树打印成多行](question-60.md)
+### 面试题61 [按之字形顺序打印二叉树](question-61.md)
+### 面试题62 [序列化二叉树](question-62.md)
+### 面试题63 [二叉搜索树的第k个结点](question-63.md)
 
 *****
 [url1]:https://www.nowcoder.com/ta/coding-interviews
