@@ -87,6 +87,10 @@
 ### 面试题61 [按之字形顺序打印二叉树](question-61.md)
 ### 面试题62 [序列化二叉树](question-62.md)
 ### 面试题63 [二叉搜索树的第k个结点](question-63.md)
+### 面试题64 [数据流中的中位数](question-64.md)
+### 面试题65 [滑动窗口的最大值](question-65.md)
+### 面试题66 [矩阵中的路径](question-66.md)
+### 面试题67 [机器人的运动范围](question-67.md)
 
 *****
 [url1]:https://www.nowcoder.com/ta/coding-interviews
